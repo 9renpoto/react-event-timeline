@@ -1,6 +1,6 @@
 # react-event-timeline
 
-React component to generate a responsive event timeline.
+React component to generate a responsive vertical event timeline
 
 [![npm version](https://badge.fury.io/js/react-event-timeline.svg)](https://badge.fury.io/js/react-event-timeline)
 [![Build Status](https://travis-ci.org/rcdexta/react-event-timeline.svg?branch=master)](https://travis-ci.org/rcdexta/react-event-timeline)
@@ -9,22 +9,23 @@ React component to generate a responsive event timeline.
 
 ![alt tag](https://github.com/rcdexta/react-event-timeline/raw/master/timeline.png)
 
-See the storybook demo here: https://rcdexta.github.io/react-event-timeline
+Storybook demos here: https://rcdexta.github.io/react-event-timeline
 
-CodeSandbox version to play with (in typescript):
+CodeSandbox version to play with examples (in typescript):
 
 [![Edit Timeline Example](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/13k1jjqj64)
 
-> Note: CodeSandbox version has styling and icons loaded in index.html for better presentation!
+> Note: CodeSandbox version has predefined styles and icons loaded in index.html for better presentation!
 
 ## Features
 
-* It's lightweight
+* Is lightweight
 * Responsive and extensible
+* Configurable and customizable
 
 ## Getting started
 
-To install the dependency
+To install as npm dependency
 ```
 npm install --save react-event-timeline
 ```
@@ -62,7 +63,7 @@ ReactDOM.render(
 );
 ```
 
-Please refer [storybook](https://github.com/rcdexta/react-event-timeline/blob/master/stories/App.story.js) to check out code for all the examples in the `storybook` folder.
+Please refer [storybook](https://github.com/rcdexta/react-event-timeline/blob/master/stories/App.story.js) to check code for all the examples in the storybook demo.
 
 ## API Documentation
 
@@ -107,12 +108,12 @@ Use this component if your event footprint is too small and can be described in 
 | Name      | Type   | Description                              |
 | --------- | ------ | ---------------------------------------- |
 | title     | node   | The title of the event. Can be string or any DOM element node(s) |
-| icon      | node   | The icon to show as event lable. Can be a SVG or font icon |
+| icon      | node   | The icon to show as event label. Can be a SVG or font icon |
 | iconColor | string | CSS color code for icon                  |
 | iconStyle | object   | Custom CSS styling for the icon                  |
 | style     | object   | Override style for the entire event container |
 
-Refer to Condensed Timeline in Storybook for examples of using this component
+Refer to Condensed Timeline in Storybook for examples of using this component.
 
 ## Development
 
@@ -127,6 +128,13 @@ This project recommends using [react-storybook](https://github.com/kadirahq/reac
 The storybook artefacts can be found in `stories` folder. Run `npm run storybook` and you should see your code changes hot reloaded on the browser
 
 Also use [semantic-release](https://github.com/semantic-release/semantic-release) to automate release to npm. Use `npm run commit` to commit your changes and raise a PR.
+
+# Acknowledgements
+
+This project is graciously supported by IDE tools offered by [JetBrains](https://www.jetbrains.com/) for development.
+
+[![alt tag](https://github.com/rcdexta/react-event-timeline/blob/master/jetbrains-badge.png)](https://www.jetbrains.com/)
+
 
 ## License
 
